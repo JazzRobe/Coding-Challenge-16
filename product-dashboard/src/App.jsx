@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Product List</h1>
+      <h1>Product Dashboard</h1>
       <ProductList products={products}/>
       <AddProductForm addProduct={addProduct}/>
     </div>
