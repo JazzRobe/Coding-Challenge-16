@@ -13,11 +13,12 @@ const App = () => {
   //initial array of product objects
 
   const [products, setProducts] = useState(initialProducts);
+  //makes initial value for product object, assigns that value to both products and setProducts
 
   const addProduct = (newProduct) => {
     setProducts([...products, {...newProduct, id: products.length + 1}]);
   }
-  //functionto add new products to the array
+  //function to add new products to the array
 
   return (
     <div>
